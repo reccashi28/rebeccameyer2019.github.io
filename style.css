@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+      
+  }
+  
+  
+  #header{
+   width: 100%;
+   height: auto;
+   position: fixed;
+    background: pink;
+    z-index: 10;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+  }
+  #header-img{
+    position: inline-block;
+    width: 100px;
+    float: left;
+    }
+  #nav-bar{
+    position: inline-block;
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 300px;
+          
+    }
+  #nav-bar a{
+   margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    }
+  
+  .nav-link{
+   text-decoration: none; 
+    font-size: 20px;
+    z-index: 8;
+  }
+  
+  .nav-link:hover{
+    background: white;
+    border-radius: 10px;
+    z-index: 8;
+    text-decoration: none;
+  }
+  
+  #section-form {
+    text-align: center;
+    padding-top: 150px;
+   
+  }
+  #div-vid {
+    text-align: center;
+    padding-top: 10px;
+    z-index: 0;
+    }
+  
+  #form input, button{
+    margin: 0.5em;
+  }
+ 
+  #email{
+    margin-top: 20px;
+    width: 300px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background: white;
+  }
+  #button, #submit{
+    background: orange;
+    padding: 7px 20px;
+    border-radius: 5%;
+    border: none;
+    font-size: 17px;
+  }
+  
+  
+  #description-section{
+    padding: 10px;
+  
+    }
+  #description-section ul, p, h4{
+    font-size: 20px;
+    list-style-position: inside;
+    padding: 15px;
+  }
+  #ol-li{
+    font-size: 20px;
+    list-style-position: inside;
+    padding: 20px;
+    
+  }
+  #div-pricing{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    }
+  
+    .div-price-value{
+      font-size: 40px;
+    }
+  
+  .div-pricing-product {
+    position: relative;
+    width: 600px;
+    background: pink;
+    margin: 20px;
+   }
+  
+  .pricing-button{
+    background: orange;
+    padding: 7px 20px;
+    border-radius: 5%;
+    border: none;
+    font-size: 17px;
+    text-align: center;
+    align-self: bottom;
+    }
+
+    @media only screen and (max-width: 1200px){
+      #header{
+        height: 100px;
+              
+        }
+        #nav-bar{
+         position: inline:block;
+         text-align: center; 
+         width: 100%; 
+            
+         }
+     #nav-bar a{
+ 
+              padding: 10px;
+              color: black;
+              text-decoration: none;
+              font-size: 20px;
+              margin: 2px;
+              }
+ 
+              #email{
+                 width: 200px;
+                 font-size: 20px;
+               }
+               #button, #submit{
+                 
+                 font-size: 20px;
+               }
+               #description-section p {
+                 font-size: 15px;
+                 line-height: 1.6;
+                 text-align: justify;
+                 margin-left: 2em;
+               }
+               #description-section ul{
+ 
+                 font-size: 15px;
+                 text-align: justify;
+                 margin-left: 5em;
+                 list-style-type: disc;
+                 line-height: 1.6;
+                 list-style-position: outside;
+               }
+               #div-pricing{
+                 display: flex-block;
+                 flex-direction: column;
+                 align-items: center;
+                 
+                 }
+                 .div-pricing-product{
+                   width: 400px;
+                   
+                 }
+                 .div-pricing-product h4 {
+                  font-size: 15px;
+                  text-align: center;
+                  }
+    }
+@media only screen and (max-width: 600px){
+    #header{
+       height: 100px;
+             
+       }
+       #nav-bar{
+        position: inline:block;
+        text-align: center; 
+        width: 100%; 
+           
+        }
+    #nav-bar a{
+
+             padding: 15px;
+             color: black;
+             text-decoration: none;
+             font-size: 20px;
+             margin: 2px;
+             }
+
+             #email{
+                width: 200px;
+                font-size: 20px;
+              }
+              #button, #submit{
+                
+                font-size: 20px;
+              }
+              #description-section p, h4{
+                font-size: 15px;
+                line-height: 1.6;
+                text-align: justify;
+                margin-left: 2em;
+              }
+              #description-section ul{
+
+                font-size: 15px;
+                text-align: justify;
+                margin-left: 5em;
+                list-style-type: disc;
+                line-height: 1.6;
+                list-style-position: outside;
+              }
+              #div-pricing{
+                display: flex-block;
+                flex-direction: column;
+                align-items: center;
+                
+                }
+              .div-pricing-product{
+                width: 250px;
+              }
+              .div-pricing-product h4 {
+                font-size: 15px;
+                text-align: center;
+                }
+}
+@media only screen and (max-width: 523px){
+  #header{
+    height: 100px;
+          
+    }
+
+    #header-img{
+      width: 100px;
+      height: auto;
+      
+      }
+    #nav-bar{
+     position: inline:block;
+     text-align: center; 
+     width: 100%;
+     height: auto; 
+        
+     }
+ #nav-bar a{
+
+          padding: 2px;
+          color: black;
+          text-decoration: none;
+          font-size: 20px;
+          margin: 2px;
+          }
+
+          #email{
+             width: 150px;
+             font-size: 10px;
+           }
+           #button, #submit{
+             
+             font-size: 20px;
+           }
+           #description-section p, h4{
+             font-size: 15px;
+             line-height: 1.6;
+             text-align: justify;
+             margin-left: 2em;
+           }
+           #description-section ul{
+
+             font-size: 15px;
+             text-align: justify;
+             margin-left: 5em;
+             list-style-type: disc;
+             line-height: 1.6;
+             list-style-position: outside;
+
+           }
+           #div-pricing{
+             display: flex-block;
+             flex-direction: column;
+             text-align: center;
+             align-items: center;
+             width: auto;
+             flex-wrap: wrap;
+             }
+    .div-pricing-product{
+      width: 200px;
+    }
+.div-pricing-product h4 {
+    font-size: 15px;
+    text-align: center;
+    }
+
+
+  
+
+}
